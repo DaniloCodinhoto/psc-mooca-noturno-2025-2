@@ -4,10 +4,12 @@ package com.example;
 public class Jogo {
 
     public static void main(String[] args) {
-        Personagem cacador = new Personagem(1, 1, 1);
-        //Personagem soneca = new Personagem();
-        cacador.nome = "João";
-    //soneca.nome = "Danilo";
+        Personagem cacador = new Personagem("Denion", 
+        1, 1, 1);
+        Personagem soneca = new Personagem
+        ("Danilo", 2, 2, 2 );
+        //cacador.nome = "João";
+        //soneca.nome = "Danilo";
 
 
         while(true){
